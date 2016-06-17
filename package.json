@@ -1,6 +1,6 @@
 {
   "name": "faucet-testnet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A working faucet for testnet for use in node or browsers",
   "main": "index.js",
   "scripts": {
