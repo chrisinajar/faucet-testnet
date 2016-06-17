@@ -1,0 +1,37 @@
+{
+  "name": "faucet-testnet",
+  "version": "0.0.0",
+  "description": "A working faucet for testnet for use in node or browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/faucet-testnet.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "testnet",
+    "faucet",
+    "elements",
+    "project"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/faucet-testnet/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/faucet-testnet#readme",
+  "devDependencies": {
+    "proxyquire": "^1.7.9",
+    "semistandard": "^8.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "is-function": "^1.0.1",
+    "is-number": "^2.1.0",
+    "xhr-request": "^1.0.1"
+  }
+}
